@@ -1,5 +1,5 @@
 # flet-shimmer
-FletShimmer control for Flet
+Shimmer control for Flet
 
 ## Installation
 
@@ -11,7 +11,7 @@ Link to git repository:
 
 ```
 dependencies = [
-  "flet-shimmer @ git+https://github.com/MyGithubAccount/flet-shimmer",
+  "flet-shimmer @ git+https://github.com/ositoMalvado/flet-shimmer",
   "flet>=0.27.6",
 ]
 ```
@@ -34,4 +34,4 @@ flet build macos -v
 
 ## Documentation
 
-[Link to documentation](https://MyGithubAccount.github.io/flet-shimmer/)
+[Link to documentation](https://ositoMalvado.github.io/flet-shimmer/)

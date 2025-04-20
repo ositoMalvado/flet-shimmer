@@ -1,5 +1,5 @@
 # flet-shimmer
-FletShimmer control for Flet
+Shimmer control for Flet
 
 Flet version: 0.27.6
 

@@ -71,24 +71,39 @@ class ShimmerExample(ft.Container):
                             margin=ft.margin.only(left=5),
                             content=ft.Column(
                                 [
-                                    ft.Container(border_radius=5, height=5, width=80, bgcolor="red"),
-                                    ft.Container(border_radius=5, height=5, width=80, bgcolor="red"),
-                                    ft.Container(border_radius=5, height=5, width=80, bgcolor="red"),
-                                    ft.Container(border_radius=5, height=5, width=60, bgcolor="red"),
+                                    ft.Container(
+                                        border_radius=5,
+                                        height=5,
+                                        width=80,
+                                        bgcolor="red",
+                                    ),
+                                    ft.Container(
+                                        border_radius=5,
+                                        height=5,
+                                        width=80,
+                                        bgcolor="red",
+                                    ),
+                                    ft.Container(
+                                        border_radius=5,
+                                        height=5,
+                                        width=80,
+                                        bgcolor="red",
+                                    ),
+                                    ft.Container(
+                                        border_radius=5,
+                                        height=5,
+                                        width=60,
+                                        bgcolor="red",
+                                    ),
                                 ]
-                            )
-                        )
+                            ),
+                        ),
                     ]
                 ),
-                # width=500,
-                # height=500,
-                # bgcolor="red",
                 border=ft.border.all(2, ft.Colors.RED),
                 margin=5,
                 border_radius=random.uniform(0, 15),
-                # opacity=0.5,
                 on_click=self.randomize,
-                # expand=True,
             ),
         )
         self.content = ft.Stack(
