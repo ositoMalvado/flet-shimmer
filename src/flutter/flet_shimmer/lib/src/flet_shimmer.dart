@@ -1,6 +1,6 @@
 import 'package:flet/flet.dart';
 import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
+import 'utils/custom_shimmer.dart';
 
 class FletShimmerControl extends StatelessWidget with FletStoreMixin {
   final Control? parent;
