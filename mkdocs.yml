@@ -1,0 +1,7 @@
+site_name: FletShimmer
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
